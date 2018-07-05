@@ -1,0 +1,86 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu May 31 14:51:13 2018
+| Host         : xzz-PC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file UART_SRAM_control_sets_placed.rpt
+| Design       : UART_SRAM
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    22 |
+| Unused register locations in slices containing registers |   116 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            1 |
+| No           | No                    | Yes                    |              21 |           10 |
+| No           | Yes                   | No                     |               9 |            2 |
+| Yes          | No                    | No                     |              24 |           12 |
+| Yes          | No                    | Yes                    |             108 |           28 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------+--------------------------------------------+---------------------------------------+------------------+----------------+
+|      Clock Signal      |                Enable Signal               |            Set/Reset Signal           | Slice Load Count | Bel Load Count |
++------------------------+--------------------------------------------+---------------------------------------+------------------+----------------+
+|  clk_BUFG              |                                            | sram_read_test_m/compare_result_reg_0 |                1 |              1 |
+|  clk_BUFG              | sram_read_test_m/compare_result_i_1_n_0    | sram_read_test_m/compare_result_reg_0 |                1 |              1 |
+|  clk_BUFG              | sram_read_test_m/read_finish0_out          | sram_read_test_m/compare_result_reg_0 |                1 |              1 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/RX_data[0]                 |                                       |                1 |              1 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/RX_data[1]                 |                                       |                1 |              1 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/RX_data[2]                 |                                       |                1 |              1 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/RX_data[3]                 |                                       |                1 |              1 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/RX_data[4]                 |                                       |                1 |              1 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/RX_data[5]                 |                                       |                1 |              1 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/RX_data[6]                 |                                       |                1 |              1 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/RX_data[7]                 |                                       |                1 |              1 |
+|  sysclk_IBUF_BUFG      |                                            | sram_read_test_m/compare_result_reg_0 |                1 |              1 |
+|  sysclk_IBUF_BUFG      |                                            |                                       |                1 |              2 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/sram_wdata_t_reg[0]        |                                       |                2 |              8 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/sram_wdata_t_reg[8]        |                                       |                2 |              8 |
+|  sysclk_IBUF_BUFG      |                                            | UART_brgenerator_m/brclk16            |                2 |              9 |
+|  clk_BUFG              | sram_read_test_m/read_data[15]_i_1_n_0     | sram_read_test_m/compare_result_reg_0 |                3 |             16 |
+|  clkcnt_reg[8]_i_2_n_0 |                                            | sram_read_test_m/compare_result_reg_0 |                8 |             19 |
+|  clkcnt_reg[8]_i_2_n_0 | sram_controller_m/sram_addr_w[0]_i_1_n_0   | sram_read_test_m/compare_result_reg_0 |                5 |             19 |
+|  clkcnt_reg[8]_i_2_n_0 | UART_receiver_m/write_num_count[0]_i_1_n_0 | sram_read_test_m/compare_result_reg_0 |                5 |             19 |
+|  clk_BUFG              | sram_read_test_m/sram_rd_en                | sram_read_test_m/compare_result_reg_0 |                6 |             21 |
+|  clk_BUFG              | sram_read_test_m/read_data[31]             | sram_read_test_m/compare_result_reg_0 |                7 |             31 |
++------------------------+--------------------------------------------+---------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    12 |
+| 2      |                     1 |
+| 8      |                     2 |
+| 9      |                     1 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+

@@ -1,0 +1,12 @@
+0.6
+2017.2
+Jun 15 2017
+18:52:51
+E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
+E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.srcs/sim_1/new/sim_tb.v,1527670376,verilog,,,,UART_sender;sram_test_tb,,,,,,,,
+E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.srcs/sources_1/imports/new/Freqdivide.v,1527582780,verilog,,,,Freqdivide,,,,,,,,
+E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.srcs/sources_1/imports/new/UART_sim.v,1527668567,verilog,,,,UART_receiver,,,,,,,,
+E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.srcs/sources_1/imports/new/sram_controller.v,1527666142,verilog,,,,sram_controller,,,,,,,,
+E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.srcs/sources_1/imports/new/sram_read_test.v,1527665390,verilog,,,,sram_read_test,,,,,,,,
+E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.srcs/sources_1/imports/new/sram_test.v,1527665735,verilog,,,,UART_SRAM,,,,,,,,
+E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.srcs/sources_1/new/UART_brgenerator.v,1527645057,verilog,,,,UART_brgenerator,,,,,,,,

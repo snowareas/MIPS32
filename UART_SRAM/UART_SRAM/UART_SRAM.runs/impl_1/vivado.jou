@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu May 31 14:50:43 2018
+# Process ID: 131720
+# Current directory: E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.runs/impl_1
+# Command line: vivado.exe -log UART_SRAM.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source UART_SRAM.tcl -notrace
+# Log file: E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.runs/impl_1/UART_SRAM.vdi
+# Journal file: E:/Code/Xilinx17/zhujiaoshiyan/UART_SRAM/UART_SRAM.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source UART_SRAM.tcl -notrace
